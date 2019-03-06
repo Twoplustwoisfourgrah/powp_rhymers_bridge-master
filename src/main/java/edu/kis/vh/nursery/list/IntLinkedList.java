@@ -24,7 +24,7 @@ public class IntLinkedList {
 	}
 
 	public int top() {
-		if (isEmpty()) 
+		if (isEmpty())
 			return -1;
 		return last.value;
 	}
